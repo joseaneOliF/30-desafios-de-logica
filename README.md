@@ -1,1 +1,1 @@
-# 30-desafios-de-logica
+Desafios de lógica do curso One Bit Code.
