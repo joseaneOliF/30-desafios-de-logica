@@ -11,15 +11,22 @@
 // return average
 // };
 
+// function average (numbers) {
+// let sum = 0;
+
+// numbers.forEach(number => {
+//   sum += number
+// });
+// const average = sum /numbers.length;
+// return average
+
+// };
+
 function average (numbers) {
-let sum = 0;
 
-numbers.forEach(number => {
-  sum += number
-});
-const average = sum /numbers.length;
-return average
+const sum = numbers.reduce((acc, num) => acc += num, 0)
 
+return sum / numbers.length
 };
 
 console.log(average([5, 7, 10, 9]));
