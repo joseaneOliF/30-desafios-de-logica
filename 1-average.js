@@ -1,3 +1,5 @@
+// VERY EASY
+
 /* O desafio pede que escreva uma função que recebe um número qualquer de números inteiros como argumento e retorne a média aritmética entre eles */
 
 //FOR
