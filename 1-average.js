@@ -1,14 +1,25 @@
 /* O desafio pede que escreva uma função que recebe um número qualquer de números inteiros como argumento e retorne a média aritmética entre eles */
 
+// function average (numbers) {
+// let sum = 0;
+
+// for(let index = 0; index < numbers.length; index ++) {
+//   sum += numbers[index]
+// }
+// const average = sum / numbers.length
+
+// return average
+// };
+
 function average (numbers) {
 let sum = 0;
 
-for(let index = 0; index < numbers.length; index ++) {
-  sum += numbers[index]
-}
-const average = sum / numbers.length
-
+numbers.forEach(number => {
+  sum += number
+});
+const average = sum /numbers.length;
 return average
+
 };
 
 console.log(average([5, 7, 10, 9]));
